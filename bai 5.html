@@ -3,38 +3,41 @@
 <head>
 </head>
 <body>
-    <h2>PHIẾU KHẢO SÁT</h2>
-        <table border="1" cellspacing="0" cellpadding="10">
+    <tr>
+        <h2>PHIẾU KHẢO SÁT</h2>
+    </tr>
+    <form>
+        <table border="1">
             <tr>
-                <td>Họ tên</td>
+                <td><b>Họ tên</b></td>
                 <td><input type="text" name="hoten"></td>
             </tr>
             <tr>
-                <td>Màu yêu thích</td>
+                <td><b>Màu yêu thích</b></td>
                 <td><input type="color" name="mau"></td>
             </tr>
             <tr>
-                <td>Ngày sinh</td>
+                <td><b>Ngày sinh</b></td>
                 <td><input type="text" name="ngaysinh" placeholder="dd/mm/yyyy"></td>
             </tr>
             <tr>
-                <td>Email</td>
+                <td><b>Email</b></td>
                 <td><input type="email" name="email"></td>
             </tr>
             <tr>
-                <td>Chuyên ngành</td>
+                <td><b>Ngành nghề</b></td>
                 <td><input type="text" name="nganhnghe"></td>
             </tr>
             <tr>
-                <td>Website</td>
+                <td><b>Website</b></td>
                 <td><input type="url" name="website"></td>
             </tr>
             <tr>
-                <td>Con số yêu thích (1-9)</td>
+                <td><b>Con số yêu thích (1-9)</b></td>
                 <td><input type="number" name="conso" min="1" max="9"></td>
             </tr>
             <tr>
-                <td>Thu nhập</td>
+                <td><b>Thu nhập</b></td>
                 <td>
                     100 (USD) <input type="range" name="thunhap" min="100" max="1000"> 1000 (USD)
                     <br>
@@ -42,11 +45,13 @@
                 </td>
             </tr>
             <tr>
+                <td></td>
                 <td colspan="2" align="center">
                     <input type="submit" value="Gửi đi">
                     <input type="reset" value="Xóa hết">
                 </td>
             </tr>
         </table>
+    </form>
 </body>
 </html>
